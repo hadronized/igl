@@ -19,7 +19,9 @@ library
   ghc-options:         -O2 -W -Wall
 
   exposed-modules:     Graphics.Rendering.IGL.Buffer
+                     , Graphics.Rendering.IGL.Framebuffer
                      , Graphics.Rendering.IGL.GL
+                     , Graphics.Rendering.IGL.Texture
                      , Graphics.Rendering.IGL.VertexArray
   
   default-extensions:  DataKinds
