@@ -20,6 +20,7 @@ library
 
   exposed-modules:     Graphics.Rendering.IGL.Buffer
                      , Graphics.Rendering.IGL.GL
+                     , Graphics.Rendering.IGL.VertexArray
   
   default-extensions:  DataKinds
                      , PolyKinds

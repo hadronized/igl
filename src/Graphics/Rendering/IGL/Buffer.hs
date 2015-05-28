@@ -22,9 +22,6 @@ import Graphics.GL
 import Graphics.Rendering.IGL.GL
 import Numeric.Natural ( Natural )
 
---------------------------------------------------------------------------------
--- Buffer
-
 newtype Buffer = Buffer { bufferID :: GLuint }
 
 class BufferTarget t where
