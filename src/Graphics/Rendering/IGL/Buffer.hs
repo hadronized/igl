@@ -13,7 +13,6 @@ module Graphics.Rendering.IGL.Buffer (
     -- *
   ) where
 
-import Control.Monad.Indexed
 import Foreign.Marshal.Array
 import Foreign.Marshal.Utils
 import Foreign.Ptr
